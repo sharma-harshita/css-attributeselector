@@ -1,0 +1,32 @@
+/* input[type]{
+    color: red;
+} */
+
+/* input[type = "text"]{
+    color: red;
+}
+
+h1[target~="text"]{
+    background-color: blueviolet;
+    color: white;
+} */
+
+/* h1[target|="text"]{
+    background-color: red;
+    color: white;
+} */
+
+/* h1[target^="en"]{
+    background-color: green;
+    color: white;
+} */
+
+/* h1[target$="ng"]{
+    background-color: green;
+    color: white;
+} */
+
+h1[target*="xy"]{
+    background-color: pink;
+    color: white;
+}
